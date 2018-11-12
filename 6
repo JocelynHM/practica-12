@@ -1,0 +1,51 @@
+//Leer un arreglo de 4 x 3. Mostrar el arreglo en forma de matriz y cuantos números son múltiplos de 9.
+#include<stdio.h>
+int leer()
+int r, co, a 12, m;
+{
+  for(r=0; r<4; r++)
+  {
+    for (co=0; co<3; co++)
+    {
+      scanf("%d", & a r co; 
+     }
+   }
+  return 0; 
+}
+int mostar()
+{
+ for(r=0; r<4; r++)
+  {
+    for (co=0; co<3; co++)
+    {
+      printf("%d", a r co; 
+     }
+    printf(" n"); 
+   }
+  return 0; 
+ }
+int multiplo()
+{
+for(r=0; r<4; r++)
+  {
+    for (co=0; co<3; co++)
+    {
+      if(a r c %9==0)
+      {
+        m++;
+     }
+    printf(" n"); 
+   }
+  return 0; 
+ }  
+ 
+int main()
+{
+  printf("este programa leera una matriz de 4x3, lo mostrara y dira cuantos son multiplos de 9"); 
+  printf("ingrese 12 numeros"); 
+  leer(); 
+  printf("la matriz ingresada fue"); 
+  mostrar(); 
+  printf("el total de numeros multiplos de 9 son %d", m); 
+  return 0; 
+} 
